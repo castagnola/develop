@@ -37416,7 +37416,12 @@ var render = function() {
               }
             ],
             staticClass: "form-control",
-            attrs: { type: "text", name: "nombre", placeholder: "Name" },
+            attrs: {
+              type: "text",
+              name: "nombre",
+              placeholder: "Name",
+              required: ""
+            },
             domProps: { value: _vm.nombre },
             on: {
               input: function($event) {
@@ -37443,7 +37448,8 @@ var render = function() {
             attrs: {
               type: "text",
               name: "documento",
-              placeholder: "Documento"
+              placeholder: "Documento",
+              required: ""
             },
             domProps: { value: _vm.documento },
             on: {
@@ -37471,7 +37477,8 @@ var render = function() {
             attrs: {
               type: "text",
               name: "direccion",
-              placeholder: "direccion"
+              placeholder: "direccion",
+              required: ""
             },
             domProps: { value: _vm.direccion },
             on: {
@@ -37496,7 +37503,12 @@ var render = function() {
               }
             ],
             staticClass: "form-control",
-            attrs: { type: "text", name: "telefono", placeholder: "telefono" },
+            attrs: {
+              type: "text",
+              name: "telefono",
+              placeholder: "telefono",
+              required: ""
+            },
             domProps: { value: _vm.telefono },
             on: {
               input: function($event) {

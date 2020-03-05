@@ -4,16 +4,16 @@
         <div class="card-body">
            <form @submit="save">
             <div class="form-group">
-            <input v-model="nombre" type="text" name="nombre" placeholder="Name" class="form-control">
+            <input v-model="nombre" type="text" name="nombre" placeholder="Name" class="form-control" required>
         </div>
          <div class="form-group">
-            <input v-model="documento" type="text" name="documento" placeholder="Documento" class="form-control">
+            <input v-model="documento" type="text" name="documento" placeholder="Documento" class="form-control" required>
         </div>
          <div class="form-group">
-            <input v-model="direccion" type="text" name="direccion" placeholder="direccion" class="form-control">
+            <input v-model="direccion" type="text" name="direccion" placeholder="direccion" class="form-control" required>
         </div>
          <div class="form-group">
-            <input v-model="telefono" type="text" name="telefono" placeholder="telefono" class="form-control">
+            <input v-model="telefono" type="text" name="telefono" placeholder="telefono" class="form-control" required>
         </div>
         <div class="form-group">
         <select name="role_id" v-model="role_id" id="role_id" class="form-control">
